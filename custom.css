@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+}
+
+:root {
+
+    --width: 200px;
+    --height: 200px;
+    --border: 2px solid rgb(116, 106, 106);
+    --margin: 4px 8px;
+    --background-color: rgb(194, 194, 247);
+    --border-radius: 6px;
+
+}
+
+.box1,
+.box2,
+.box3 {
+    width: var(--width);
+    height: var(--height);
+    border: var(--border);
+    margin: var(--margin);
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
+}
